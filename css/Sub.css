@@ -1,7 +1,70 @@
 .site-sub {
   width: 100%;
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
-  background-color: coral;
+  padding: 50px;
+}
+.site-sub__titleContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border: 1px dashed blueviolet;
+}
+.site-sub__dayCircleContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border: 1px dashed blueviolet;
+}
+.site-sub__animationContainer {
+  display: flex;
+  gap: 10px;
+  overflow-x: visible;
+}
+.site-sub__animation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 0 0 calc(20% - 10px);
+  max-width: calc(20% - 10px);
+}
+.site-sub__animation-thumbnail {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.site-sub__notice-button {
+  padding: 10px 16px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.site-sub__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: center;
+}
+.site-sub__circle--non-selected {
+  background-color: #D0D0D0;
+}
+.site-sub__circle--selected {
+  background-color: #816BFF;
+}
+.site-sub__circle-text {
+  vertical-align: middle;
+  text-align: center;
+  display: block;
 }
 
 /*# sourceMappingURL=Sub.css.map */

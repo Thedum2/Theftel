@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/utility/Font.css"/>
+    <link rel="stylesheet" href="css/utility/Empty.css"/>
     <link rel="stylesheet" href="css/utility/normalize.css">
     <link rel="stylesheet" href="css/utility/Common.css"/>
     <link rel="stylesheet" href="css/Header.css">
@@ -15,30 +17,110 @@
 <body>
 
 <div class="container">
-    
     <div class="site-header">
-
         <div class="site-header__left-container">
-            <p>Theftel</p>
+            <p class="cb-400 f-c-white f-s-extra site-header__logo">ThefTel</p>
+            <p class="ns-700 f-c-white f-s-medium">태그검색</p>
+            <p class="ns-700 f-c-white f-s-medium">요일별 신작</p>
+            <p class="ns-700 f-c-white f-s-medium">테마 추천</p>
+            <p class="ns-700 f-c-white f-s-medium">멤버십</p>
         </div>
         <div class="site-header__right-container">
-            <p>Theftel</p>
+            <svg class="site-header__search" width="24" height="24" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.222 16.657a7.608 7.608 0 1 1 1.435-1.435l4.05 4.05a1 1 0 0 1 0 1.415l-.02.02a1 1 0 0 1-1.415 0l-4.05-4.05Zm.994-6.05a5.608 5.608 0 1 1-11.216 0 5.608 5.608 0 0 1 11.216 0Z"/>
+            </svg>
+            <p class="ns-700 f-c-white">로그인/가입</p>
         </div>
-        
     </div>
-
     <div class="site-main">
 
-    </div>
+        <div class="site-main__arrow-container">
+            <svg class="site-main__arrow site-main__arrow--left" width="24" height="24" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.876 2.363a1.239 1.239 0 0 0-1.752 0l-8.761 8.76a1.239 1.239 0 0 0 0 1.753l8.76 8.761a1.239 1.239 0 1 0 1.753-1.752L8.991 12l7.885-7.885a1.239 1.239 0 0 0 0-1.752Z">
+                </path>
+            </svg>
+        </div>
+        <div class="site-main__contents-container">
+            <img class="site-main__animationlogo" src="assets/images/animationlogo.png" alt=""/>
+            <p class="f-c-white f-s-extra ns-600">전생의 소꿉친구가 이세계에 와버렸다??!!?</p>
+            <button class="site-main__watch-button f-c-black f-s-big ns-700">보러 가기 ></button>
+            <div class="site-main__circle-container">
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+                <div class="site-main__circle site-main__circle--non-selected"></div>
+            </div>
+        </div>
+        <div class="site-main__arrow-container">
+            <svg class="site-main__arrow site-main__arrow--right" width="24" height="24" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.876 2.363a1.239 1.239 0 0 0-1.752 0l-8.761 8.76a1.239 1.239 0 0 0 0 1.753l8.76 8.761a1.239 1.239 0 1 0 1.753-1.752L8.991 12l7.885-7.885a1.239 1.239 0 0 0 0-1.752Z">
+                </path>
+            </svg>
+        </div>
 
+    </div>
     <div class="site-sub">
-
+        <div class="site-sub__titleContainer">
+            <p class="ns-700 f-c-black f-s-extra">요일별 신작</p>
+            <button class="site-sub__notice-button f-c-black f-s-medium ns-700">업로드 공지</button>
+        </div>
+        <div class="e-50"></div>
+        <div class="site-sub__dayCircleContainer">
+            <button class="site-sub__circle site-sub__circle--non-selected"><span class="site-sub__circle-text f-c-white f-s-big ns-700">월</span></button>
+            <button class="site-sub__circle site-sub__circle--non-selected"><span class="site-sub__circle-text f-c-white f-s-big ns-700">화</span></button>
+            <button class="site-sub__circle site-sub__circle--non-selected"><span class="site-sub__circle-text f-c-white f-s-big ns-700">수</span></button>
+            <button class="site-sub__circle site-sub__circle--selected"><span class="site-sub__circle-text f-c-white f-s-big ns-700">목</span></button>
+            <button class="site-sub__circle site-sub__circle--non-selected"><span class="site-sub__circle-text f-c-white f-s-big ns-700">금</span></button>
+            <button class="site-sub__circle site-sub__circle--non-selected"><span class="site-sub__circle-text f-c-white f-s-big ns-700">토</span></button>
+            <button class="site-sub__circle site-sub__circle--non-selected"><span class="site-sub__circle-text f-c-white f-s-big ns-700">일</span></button>
+        </div>
+        <div class="e-20"></div>
+        <div class="site-sub__animationContainer">
+            <div class="site-sub__animation">
+                <img class="site-sub__animation-thumbnail" src="assets/images/thumbnail/animation_thumb1.webp">
+                <p class="f-c-black ns-500 f-s-medium">전생귀족, 감정스킬로 성공하다 2기</p>
+            </div>
+            <div class="site-sub__animation">
+                <img class="site-sub__animation-thumbnail" src="assets/images/thumbnail/animation_thumb1.webp">
+                <p class="f-c-black ns-500 f-s-medium">전생귀족, 감정스킬로 성공하다 2기</p>
+            </div>
+            <div class="site-sub__animation">
+                <img class="site-sub__animation-thumbnail" src="assets/images/thumbnail/animation_thumb1.webp">
+                <p class="f-c-black ns-500 f-s-medium">전생귀족, 감정스킬로 성공하다 2기</p>
+            </div>
+            <div class="site-sub__animation">
+                <img class="site-sub__animation-thumbnail" src="assets/images/thumbnail/animation_thumb1.webp">
+                <p class="f-c-black ns-500 f-s-medium">전생귀족, 감정스킬로 성공하다 2기</p>
+            </div>
+            <div class="site-sub__animation">
+                <img class="site-sub__animation-thumbnail" src="assets/images/thumbnail/animation_thumb1.webp">
+                <p class="f-c-black ns-500 f-s-medium">전생귀족, 감정스킬로 성공하다 2기</p>
+            </div>
+            <div class="site-sub__animation">
+                <img class="site-sub__animation-thumbnail" src="assets/images/thumbnail/animation_thumb1.webp">
+                <p class="f-c-black ns-500 f-s-medium">전생귀족, 감정스킬로 성공하다 2기</p>
+            </div>
+            <div class="site-sub__animation">
+                <img class="site-sub__animation-thumbnail" src="assets/images/thumbnail/animation_thumb1.webp">
+                <p class="f-c-black ns-500 f-s-medium">전생귀족, 감정스킬로 성공하다 2기</p>
+            </div>
+        </div>
     </div>
-
     <div class="site-footer">
 
     </div>
-    
 </div>
 
 </body>

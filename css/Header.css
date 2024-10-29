@@ -1,19 +1,32 @@
 .site-header {
   width: 100%;
   height: 70px;
-  background-color: chartreuse;
-  padding: 1px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin: 0;
-  box-sizing: border-box;
+  background-color: black;
   display: flex;
   justify-content: space-between;
 }
-.site-header __left-container {
-  box-sizing: border-box;
-  font-size: 30px;
+.site-header__left-container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
 }
-.site-header __right-container {
-  box-sizing: border-box;
+.site-header__right-container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.site-header__logo {
+  margin-right: 20px;
+}
+.site-header__search {
+  fill: white;
 }
 
 /*# sourceMappingURL=Header.css.map */

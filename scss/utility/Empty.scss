@@ -1,0 +1,7 @@
+@for $i from 10 through 100 {
+  .e-#{$i} {
+    width: 100%;
+    height: #{$i}px;
+    border: 1px solid black;
+  }
+}
