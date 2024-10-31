@@ -3,14 +3,13 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 50px;
+  padding: 50px 0 50px 50px;
 
   &__titleContainer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    border: 1px dashed blueviolet;
   }
 
   &__dayCircleContainer {
@@ -18,13 +17,12 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    border: 1px dashed blueviolet;
   }
 
   &__animationContainer {
     display: flex;
     gap: 10px;
-    overflow-x: visible;
+    overflow-x: clip;
   }
 
   &__animation {
@@ -32,9 +30,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 10px;
-    flex: 0 0 calc(20% - 10px);
-    max-width: calc(20% - 10px);
+    gap: 5px;
+    flex: 0 0 calc(16.66% - 15px);
+    max-width: calc(16.66% - 15px);
   }
 
   &__animation-thumbnail {
@@ -43,7 +41,7 @@
     object-fit: cover;
   }
 
-    
+
   &__notice-button {
     padding: 10px 16px;
     text-align: center;
@@ -57,10 +55,12 @@
     justify-content: center;
     align-items: center;
     border: none;
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
     vertical-align: center;
+    aspect-ratio: 1 / 1;
+    flex-grow: 1;
+    max-width: 50px;
+    max-height: 50px;
 
     &--non-selected {
       background-color: #D0D0D0;
@@ -75,5 +75,14 @@
     vertical-align: middle;
     text-align: center;
     display: block;
+  }
+
+  &__banner {
+    height: 100px;
+    background-color: #F0EDFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
