@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 50px 0 50px 50px;
+  overflow-x: hidden;
+  padding: 50px;
 
   &__titleContainer {
     display: flex;
@@ -22,7 +23,6 @@
   &__animationContainer {
     display: flex;
     gap: 10px;
-    overflow-x: clip;
   }
 
   &__animation {
@@ -78,10 +78,12 @@
   }
 
   &__banner {
+    width: 100%;
     height: 100px;
     background-color: #F0EDFF;
     border-radius: 10px;
     display: flex;
+    align-self: center;
     justify-content: center;
     align-items: center;
   }

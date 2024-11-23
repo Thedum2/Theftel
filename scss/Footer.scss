@@ -1,5 +1,40 @@
 .site-footer{
     width: 100%;
     height: 200px;
+    padding: 40px;
+    gap: 5px;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+    &__topContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__topContainer-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    &__topContainer-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    &__bottomContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+    }
 }

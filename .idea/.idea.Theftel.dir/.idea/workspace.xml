@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a648156-cf54-4a65-abb9-4fa0d962a36d" name="Changes" comment="" />
+    <list default="true" id="6a648156-cf54-4a65-abb9-4fa0d962a36d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Theftel.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Theftel.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Sub.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Sub.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Sub.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/Sub.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utility/Common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/utility/Common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utility/Common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/utility/Common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utility/Font.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/utility/Font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utility/Font.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/utility/Font.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/Sub.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/Sub.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utility/Common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utility/Common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utility/Font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utility/Font.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,33 +51,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "C:/WorkSpace/Theftel/css/utility",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "liveEdit",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WorkSpace/Theftel/css/utility&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\DDE\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\DDE\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\DDE\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\DDE\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\DDE\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\DDE\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/Theftel/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Theftel/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -83,6 +98,8 @@
       <workItem from="1730093124921" duration="81000" />
       <workItem from="1730093228768" duration="577000" />
       <workItem from="1730093829892" duration="2289000" />
+      <workItem from="1730445042108" duration="2176000" />
+      <workItem from="1732348525292" duration="6353000" />
     </task>
     <servers />
   </component>

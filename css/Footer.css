@@ -1,7 +1,38 @@
 .site-footer {
   width: 100%;
   height: 200px;
+  padding: 40px;
+  gap: 5px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.site-footer__topContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.site-footer__topContainer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.site-footer__topContainer-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.site-footer__bottomContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
 }
 
 /*# sourceMappingURL=Footer.css.map */

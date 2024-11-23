@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 50px 0 50px 50px;
+  overflow-x: hidden;
+  padding: 50px;
 }
 .site-sub__titleContainer {
   display: flex;
@@ -20,7 +21,6 @@
 .site-sub__animationContainer {
   display: flex;
   gap: 10px;
-  overflow-x: clip;
 }
 .site-sub__animation {
   display: flex;
@@ -67,10 +67,12 @@
   display: block;
 }
 .site-sub__banner {
+  width: 100%;
   height: 100px;
   background-color: #F0EDFF;
   border-radius: 10px;
   display: flex;
+  align-self: center;
   justify-content: center;
   align-items: center;
 }
